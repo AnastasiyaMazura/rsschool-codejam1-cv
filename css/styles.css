@@ -82,3 +82,56 @@
     background-size: contain;
     margin-right: 20px;
 }
+
+
+.sprites-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #367596 url("../img/sprites.png") no-repeat 10px;
+}
+
+.sprite2{
+    background: #367596 url("../img/sprites.png") no-repeat -20px;
+}
+
+.dev-link{
+    display: flex;
+}
+
+.sprites-container:hover{
+    background-color: #4caadb;
+}
+
+.footer-container{
+    background-color: rgba(214, 239, 252, 0.5);
+}
+
+.footer{
+    color: #367596;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90px;
+    height: 40px;
+}
+
+.paragraph-footer{
+    font-size: 16px;
+    font-family: "MeroendaOne";
+}
+
+.dev-names{
+    font-family: Dancing;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
