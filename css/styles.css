@@ -1,0 +1,84 @@
+* {
+    user-select: none;
+}
+
+@font-face {
+    font-family: "Bungee";
+    src: url("../fonts/Bungee-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Dancing";
+    src: url("../fonts/DancingScript-Regular.woff ") format('woff');
+}
+
+
+@font-face {
+    font-family: "MeroendaOne";
+    src: url("../fonts/MeriendaOne-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Baloo";
+    src: url("../fonts/BalooTammudu-Regular.woff") format('woff');
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url("../img/background1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.header{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Haettenschweiler";
+    background-color: rgba(214, 239, 252, 0.5);
+    padding: 10px 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    color: #367596;
+}
+
+.name {
+    font-size: 80px;
+}
+
+.developer {
+    font-size: 40px;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.contacts {
+    max-width: 350px;
+    align-self: flex-end;
+}
+
+.inner-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+    background: url("../img/Mazura_Anastasia.jpg") no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+}
