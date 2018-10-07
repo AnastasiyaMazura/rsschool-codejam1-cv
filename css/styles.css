@@ -148,3 +148,17 @@
     padding: 10px 20px 20px;
 }
 
+.task-link {
+    text-decoration: none;
+    color: #367596;
+}
+
+.element-of-list {
+    padding-bottom: 5px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
