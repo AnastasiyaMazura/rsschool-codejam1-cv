@@ -144,7 +144,7 @@
     font-family: "Haettenschweiler";
 }
 
-.description {
+.description, .first-working-place, .second-working-place, .task-list {
     padding: 10px 20px 20px;
 }
 
@@ -157,8 +157,16 @@
     padding-bottom: 5px;
 }
 
-.skills{
+.skills, .about-working-container{
     display: flex;
     flex-direction: column;
+}
+
+.first-working-place {
+    width: 295px;
+}
+
+.second-working-place {
+    width: 370px;
 }
 
